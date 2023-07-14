@@ -79,3 +79,57 @@ a {
   text-transform: uppercase;
   letter-spacing: -0.48px;
 }
+
+header {
+  background: #0d0d0d;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__left__line {
+  height: 80px;
+  width: 2px;
+  background: #fff;
+  opacity: 0.1;
+  margin-left: 66px;
+  margin-right: 64px;
+}
+.navbar__left__link {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+.navbar__left__link li a {
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.navbar__right button {
+  padding: 20px 48px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: #ffd2a4;
+  color: #1c1d28;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.navbar__right button:hover {
+  background: #f2c79b;
+}
+.navbar__right button a {
+  color: #1C1D28;
+}
