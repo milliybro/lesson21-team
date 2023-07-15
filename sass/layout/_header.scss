@@ -3,17 +3,17 @@
 
 header {
   background: #0d0d0d;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  opacity: 1;
+  background-color: #0d0d0d;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
-  // position: fixed;
-  // width: 100%;
-  // z-index: 1;
-  // opacity: 1;
-  // background-color: #0d0d0d;
   &__left {
     display: flex;
     justify-content: space-between;
@@ -25,8 +25,8 @@ header {
       opacity: 0.1;
       margin-left: 66px;
       margin-right: 64px;
-      @media (max-width:400px){
-         display: none;
+      @media (max-width: 400px) {
+        display: none;
       }
     }
     &__link {
@@ -35,6 +35,7 @@ header {
       gap: 48px;
       li {
         a {
+          position: relative;
           color: var.$c5;
           text-align: right;
           font-size: var.$h6;
@@ -42,6 +43,20 @@ header {
           font-weight: 400;
           line-height: normal;
           text-transform: uppercase;
+          &::after {
+            content: "";
+            position: absolute;
+            background-color: red;
+            height: 3px;
+            width: 0;
+            left: 0;
+            bottom: -10px;
+            transition: 0.3s;
+            z-index: 99;
+          }
+          &:hover::after {
+            width: 100%;
+          }
         }
       }
     }
@@ -50,10 +65,10 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    >button {
+    > button {
       @include mxn.nav-btn;
-      @media (max-width:600px){
-         display: none;
+      @media (max-width: 600px) {
+        display: none;
       }
       a {
         color: #1c1d28;

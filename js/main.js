@@ -1,4 +1,4 @@
-
+// alert("Assalomu Aleykum \n'Milliy Team' ning tayyorlagan saytiga \nXush kelibsiz! ")
 
 
 function openNavbar() {
