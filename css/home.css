@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../../fonts/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../../fonts/RobotoCondensed-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(../../fonts/RobotoCondensed-Regular.ttf);
+}
+html, body * {
+  font-family: "Roboto", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -43,41 +59,6 @@ a {
 
 .container-sm {
   max-width: 808px;
-}
-
-.upcoming-sermon__left button {
-  padding: 24px 64px;
-  border-radius: 12px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  background-color: #161722;
-  color: #ffd2a4;
-  text-transform: uppercase;
-  transition: 0.5s;
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
-}
-.upcoming-sermon__left button:hover {
-  color: #fff;
-}
-
-.section-header {
-  text-align: center;
-}
-.section-header h6 {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-.section-header h2 {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 64px;
-  text-transform: uppercase;
-  letter-spacing: -0.48px;
 }
 
 header {
@@ -132,4 +113,151 @@ header {
 }
 .navbar__right button a {
   color: #1C1D28;
+}
+
+footer {
+  background: #161722;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+footer .footer {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+footer .footer__left {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 115px;
+}
+footer .footer__left__hero h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 27.65px;
+  padding-bottom: 32px;
+}
+footer .footer__left__hero p {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+footer .footer__left__link {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+}
+footer .footer__left__link ul h3 {
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+footer .footer__left__link ul li {
+  padding-bottom: 24px;
+}
+footer .footer__left__link ul li a {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+footer .footer__left__link__social h3 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+footer .footer__left__link__social img {
+  padding-right: 20px;
+}
+footer .footer__right h2 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+  padding-bottom: 32px;
+}
+footer .footer__right__mail {
+  position: relative;
+}
+footer .footer__right__mail input {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px;
+  width: 100%;
+}
+footer .footer__right__mail button {
+  position: absolute;
+  right: 0px;
+  padding: 24px 64px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: #ffd2a4;
+  color: #1c1d28;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+footer .footer__right__mail button:hover {
+  background: #f2c79b;
+}
+
+.upcoming-sermon__left button {
+  padding: 24px 64px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  background-color: #161722;
+  color: #ffd2a4;
+  text-transform: uppercase;
+  transition: 0.5s;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+}
+.upcoming-sermon__left button:hover {
+  color: #fff;
+}
+
+.section-header {
+  text-align: center;
+}
+.section-header h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section-header h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  text-transform: uppercase;
+  letter-spacing: -0.48px;
 }

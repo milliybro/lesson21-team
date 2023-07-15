@@ -2,7 +2,9 @@
 @use "../components/upcoming-sermon";
 @use "../components/blog-card";
 @use "../components/section-header";
-@use "../components/header";
+@use "../layout/header";
+@use "../layout/footer";
 @use "../utils/mixins" as mxn;
 @use "../utils/variables" as var;
+
 
