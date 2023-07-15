@@ -1,79 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/home.min.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container navbar">
-        <div class="navbar__left">
-          <img src="image/home/Logo.svg">
-          <div class="navbar__left__line"></div>
-          <ul class="navbar__left__link">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="sermons.html">Sermon</a></li>
-            <li><a href="blog.html">Blog</a></li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/home.min.css" />
+</head>
+
+<body>
+  <!-- <a id="backtop" href="#">
+    <img src="images/arrow.svg" alt="arrow">
+  </a>
+  <div id="loader">
+    <div class="loader"></div>
+  </div>
+  <button id="dark-light">
+    <img src="images/night.svg">
+  </button> -->
+  <header>
+    <div class="container navbar">
+      <div class="navbar__left">
+        <img src="image/home/Logo.svg">
+        <div class="navbar__left__line"></div>
+        <ul class="navbar__left__link">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="sermons.html">Sermon</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div class="navbar__right">
+        <button><a href="contact.html">Contact us</a></button>
+        </button>
+        <div class="hamburger" id="navbar-open">
+          <img src="image/home/hamburger.svg" alt="hamburger-logo">
+        </div>
+      </div>
+      <div id="navbar-responsive">
+        <ul class="res-nav-list">
+          <li class="res-nav-item"><a href="index.html" class="res-nav-link">Home</a></li>
+          <li class="res-nav-item"><a href="about-us.html" class="res-nav-link">About us</a></li>
+          <li class="res-nav-item"><a href="sermons.html" class="res-nav-link">Sermon</a></li>
+          <li class="res-nav-item"><a href="blog.html" class="res-nav-link">Blog</a></li>
+          <li class="res-nav-item"><button class="res-nav-btn">Contact us</button></li>
+        </ul>
+        <button id="navbar-close">
+          <img src="image/home/close.svg" alt="close">
+        </button>
+
+      </div>
+
+    </div>
+    </div>
+  </header>
+  <main>
+    <section class="upcoming-sermon">
+      <div class="container">
+        <div class="section-header">
+          <h6>Watch and listen</h6>
+          <h2>THE benefits of joining our church</h2>
+        </div>
+        <div class="upcoming-sermon__row">
+          <div class="upcoming-sermon__left">
+            <button>Register</button>
+          </div>
+          <div class="upcoming-sermon__right"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer">
+      <div class="footer__left">
+        <div class="footer__left__hero">
+          <img src="../image/home/footer-logo.svg">
+          <h3>© Copyright Finsweet 2022</h3>
+          <p>(480) 555-0103</p>
+          <p>4517 Washington Ave.</p>
+          <p>finsweet@example.com</p>
+        </div>
+        <div class="footer__left__link">
+          <ul>
+            <h3>Quicklinks</h3>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Sermons</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Blog</a></li>
           </ul>
-        </div>
-        <div class="navbar__right">
-          <button><a href="contact.html">Contact us</a></button>
+          <div class="footer__left__link__social">
+            <h3>Connect</h3>
+            <img src="image/home/facebook.svg">
+            <img src="image/home/twitter.svg">
+            <img src="image/home/LinkedIn.svg">
+          </div>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="upcoming-sermon">
-        <div class="container">
-          <div class="section-header">
-            <h6>Watch and listen</h6>
-            <h2>THE benefits of joining our church</h2>
-          </div>
-          <div class="upcoming-sermon__row">
-            <div class="upcoming-sermon__left">
-              <button>Register</button>
-            </div>
-            <div class="upcoming-sermon__right"></div>
-          </div>
+      <div class="footer__right">
+        <h2>Subscribe to get Latest Updates and News</h2>
+        <div class="footer__right__mail">
+          <input type="text" placeholder="Yourmail@gmail.com">
+          <button>Subscribe</button>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="container footer">
-         <div class="footer__left">
-            <div class="footer__left__hero">
-               <img src="../image/home/footer-logo.svg">
-               <h3>© Copyright Finsweet 2022</h3>
-               <p>(480) 555-0103</p>
-               <p>4517 Washington Ave.</p>
-               <p>finsweet@example.com</p>
-            </div>
-            <div class="footer__left__link">
-               <ul>
-                  <h3>Quicklinks</h3>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Sermons</a></li>
-                  <li><a href="#">Events</a></li>
-                  <li><a href="#">Blog</a></li>
-               </ul>
-               <div class="footer__left__link__social">
-                  <h3>Connect</h3>
-                  <img src="image/home/facebook.svg">
-                  <img src="image/home/twitter.svg">
-                  <img src="image/home/LinkedIn.svg">
-               </div>
-            </div>
-         </div>
-         <div class="footer__right">
-          <h2>Subscribe to get Latest Updates and News</h2>
-          <div class="footer__right__mail">
-            <input type="text" placeholder="Yourmail@gmail.com">
-            <button>Subscribe</button>
-          </div>
-         </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
