@@ -392,3 +392,214 @@ footer .footer__right__mail > button:hover {
   text-transform: uppercase;
   letter-spacing: -0.48px;
 }
+
+main {
+  padding-top: 80px;
+}
+main .home {
+  background-image: url(../../image/about-us/bck_img.png);
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .home .titel {
+  padding-top: 160px;
+}
+main .home .titel p {
+  padding-bottom: 16px;
+  color: #161722;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+main .home .titel h1 {
+  color: #161722;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 401px) {
+  main {
+    padding-top: 0;
+  }
+}
+.about {
+  padding-top: 150px;
+}
+.about .about__titel {
+  padding-top: 32px;
+  padding-bottom: 48px;
+  color: 1;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about .about__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.about .about__card .card__one img {
+  width: 100%;
+}
+
+@media (max-width: 1080px) {
+  .about__card {
+    flex-direction: column;
+  }
+}
+.about__text {
+  padding-top: 64px;
+  padding-bottom: 128px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.about__text .about__left,
+.about__text .about__right {
+  width: 372px;
+}
+.about__text .about__left b,
+.about__text .about__right b {
+  color: #161722;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.about__text .about__left h2,
+.about__text .about__right h2 {
+  padding: 16px 0 16px;
+  color: #161722;
+  /* Heading h4 */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  /* 137.5% */
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+}
+.about__text .about__left p,
+.about__text .about__right p {
+  color: #161722;
+  /* Paragraph */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media (max-width: 600px) {
+  .about__text {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about__left,
+  .about__right {
+    width: 300px;
+  }
+}
+.benefits__container {
+  padding-bottom: 128px;
+}
+
+.benefits__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+.benefits__card .benefits__left h3 {
+  padding-bottom: 16px;
+  color: #161722;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+}
+.benefits__card .benefits__left p {
+  color: #161722;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7799999714;
+}
+
+.benefits__card__two {
+  padding-top: 96px;
+  flex-direction: row-reverse;
+}
+
+.padding__top {
+  padding-top: 96px;
+}
+
+@media (max-width: 1080px) {
+  .benefits__card {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .benefits__card .benefits__right img {
+    width: 100%;
+  }
+}
+.team .team__card {
+  padding-top: 64px;
+  padding-bottom: 128px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.team .team__card .team__box {
+  padding: 48px 70px;
+  width: 302px;
+  background: #F5F2F0;
+}
+.team .team__card .team__box img {
+  padding-bottom: 26px;
+}
+.team .team__card .team__box h3 {
+  text-align: center;
+  color: #161722;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+.team .team__card .team__box p {
+  margin-top: 8px;
+  text-align: center;
+  color: #161722;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.6999999881;
+  /* 150% */
+}
+
+.team__connect {
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
