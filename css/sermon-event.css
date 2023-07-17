@@ -393,6 +393,13 @@ footer .footer__right__mail > button:hover {
     align-items: center;
   }
 }
+.father-event .child-evenly {
+  width: 50%;
+}
+.father-event .child-evenly .img {
+  width: 100%;
+  padding-right: 10px;
+}
 .father-event .child-evenly h1 {
   padding: 16px 0 16px 0;
   color: var(--black, #161722);
