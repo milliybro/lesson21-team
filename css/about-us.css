@@ -508,7 +508,7 @@ main .home .titel h1 {
     align-items: center;
   }
   .about__left,
-  .about__right {
+.about__right {
     width: 300px;
   }
 }
@@ -568,12 +568,15 @@ main .home .titel h1 {
   flex-wrap: wrap;
 }
 .team .team__card .team__box {
-  padding: 48px 70px;
+  padding: 48px 30px;
   width: 302px;
   background: #F5F2F0;
 }
 .team .team__card .team__box img {
   padding-bottom: 26px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .team .team__card .team__box h3 {
   text-align: center;

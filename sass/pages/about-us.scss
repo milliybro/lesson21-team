@@ -204,12 +204,14 @@ main {
       flex-wrap: wrap;
 
       .team__box {
-         padding: 48px 70px;
+         padding: 48px 30px;
          width: 302px;
          background: #F5F2F0;
 
          img {
             padding-bottom: 26px;
+            margin: 0 auto;
+            display: flex;justify-content: center;
          }
 
          h3 {
