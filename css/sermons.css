@@ -391,3 +391,395 @@ footer .footer__right__mail > button:hover {
 .upcoming-sermon__left button:hover {
   color: #fff;
 }
+
+.section-header {
+  text-align: center;
+}
+.section-header h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section-header h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  text-transform: uppercase;
+  letter-spacing: -0.48px;
+}
+
+#mountain {
+  background: url(../../image/sermons/sermon-mountain.png) no-repeat center;
+  background-size: cover;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+#mountain .mountain h3 {
+  color: #232536;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#mountain .mountain h1 {
+  color: #232536;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  width: 80%;
+}
+@media (max-width: 450px) {
+  #mountain .mountain h1 {
+    font-size: 48px;
+  }
+}
+
+.sermon {
+  padding-top: 120px;
+}
+.sermon h1 {
+  text-align: center;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+}
+.sermon .father-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 64px 20px 65px 12px;
+  grid-gap: 20px;
+}
+@media (max-width: 1260px) {
+  .sermon .father-card {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 700px) {
+  .sermon .father-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.sermon .father-card .card {
+  padding: 24px 26px 80px 40px;
+  background: #fff5eb;
+  overflow: hidden;
+}
+@media (max-width: 450px) {
+  .sermon .father-card .card {
+    padding: 20px;
+  }
+}
+.sermon .father-card .card .num h5 {
+  padding: 24px 0 0 218px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+.sermon .father-card .card .num h6 {
+  padding: 0 0 0 205px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.sermon .father-card .card .event-h {
+  padding: 16px 0;
+  font-family: Roboto Condensed;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  background: var(--gradient, linear-gradient(163deg, #a54e2b 0%, #dc9853 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sermon .father-card .card h5 {
+  padding: 16px 0;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+.sermon .father-card .card p {
+  width: 214px;
+  color: var(--black, #464649);
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.sermon .father-card .card .card-img1 {
+  display: flex;
+  padding: 32px 0 16px 0;
+  gap: 16px;
+}
+.sermon .father-card .card .card-img1 img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: var(--black, #161722);
+}
+.sermon .father-card .card .card-img1 p {
+  width: 137px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.sermon .father-card .card .card-img2 {
+  display: flex;
+  padding: 32px 0 16px 0;
+  gap: 16px;
+}
+.sermon .father-card .card .card-img2 img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: var(--black, #161722);
+}
+.sermon .father-card .card .card-img2 p {
+  width: 184px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.sermon .father-card .card .card-h5 {
+  width: 240px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+
+#join-us .upcoming-text {
+  text-align: center;
+  color: var(--black, #161722);
+}
+#join-us .upcoming-text h6 {
+  padding-top: 115px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#join-us .upcoming-text h1 {
+  padding-top: 16px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+}
+#join-us .join-us-body {
+  display: flex;
+  padding-top: 64px;
+}
+@media (max-width: 1100px) {
+  #join-us .join-us-body {
+    display: inline;
+  }
+  #join-us .join-us-body .join-img {
+    width: 550px;
+  }
+  #join-us .join-us-body .join-us-main {
+    width: 650px;
+  }
+}
+#join-us .join-us-body .join-us-main {
+  padding: 24px 26px 80px 40px;
+  background-color: #fff5eb;
+  overflow: hidden;
+}
+#join-us .join-us-body .join-us-main .num h5 {
+  padding: 24px 0 0 218px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+#join-us .join-us-body .join-us-main .num h6 {
+  padding: 0 0 0 205px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+#join-us .join-us-body .join-us-main .event-h {
+  padding: 16px 0;
+  font-family: Roboto Condensed;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  background: var(--gradient, linear-gradient(163deg, #a54e2b 0%, #dc9853 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#join-us .join-us-body .join-us-main h5 {
+  padding: 16px 0;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+#join-us .join-us-body .join-us-main p {
+  width: 214px;
+  color: var(--black, #464649);
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+#join-us .join-us-body .join-us-main .card-img1 {
+  display: flex;
+  padding: 32px 0 16px 0;
+  gap: 16px;
+}
+#join-us .join-us-body .join-us-main .card-img1 img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: var(--black, #161722);
+}
+#join-us .join-us-body .join-us-main .card-img1 p {
+  width: 137px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#join-us .join-us-body .join-us-main .card-img2 {
+  display: flex;
+  padding: 32px 0 16px 0;
+  gap: 16px;
+}
+#join-us .join-us-body .join-us-main .card-img2 img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: var(--black, #161722);
+}
+#join-us .join-us-body .join-us-main .card-img2 p {
+  width: 184px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#join-us .join-us-body .join-us-main .black-button {
+  display: inline-flex;
+  padding: 24px 64px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 12px;
+  background: var(--black, #161722);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  color: #161722;
+}
+#join-us .join-us-body .join-us-main .black-button a {
+  color: var(--primary, #FFD2A4);
+  background: var(--black, #161722);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+#join-us .join-us-body .join-us-main .card-h5 {
+  width: 240px;
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+@media (max-width: 1330px) {
+  #join-us .join-us-body .join-img {
+    width: 750px;
+  }
+}
+@media (max-width: 1200px) {
+  #join-us .join-us-body .join-img {
+    width: 650px;
+  }
+}
+#join-us .join-us-footer {
+  display: flex;
+  justify-content: end;
+  padding-top: 48px;
+}
+#join-us .join-us-footer h6 {
+  color: var(--black, #161722);
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
